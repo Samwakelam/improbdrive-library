@@ -1,0 +1,27 @@
+{
+  "name": "@improbdrive/improbdrive-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samwakelam/improbdrive-library.git"
+  },
+  "author": "Sam Wakelam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samwakelam/improbdrive-library/issues"
+  },
+  "homepage": "https://github.com/Samwakelam/improbdrive-library#readme",
+  "dependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.6.1",
+    "@types/react": "^17.0.8",
+    "@types/react-dom": "^17.0.5",
+    "moment": "^2.29.1",
+    "typescript": "^4.2.4"
+  }
+}

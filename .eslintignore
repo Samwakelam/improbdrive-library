@@ -1,0 +1,6 @@
+node_modules
+dist
+
+# IGNORE FILES
+server.tsx
+server.js
