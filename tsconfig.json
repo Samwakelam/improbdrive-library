@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "outDir": "./dist/",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "lib": ["dom", "es2017", "dom.iterable"],
     "moduleResolution": "node",
     "allowJs": true,
@@ -21,6 +21,6 @@
     "declaration": true,
     "downlevelIteration": true
   },
-  "include": ["packages/**/*", "apps/**/*"],
+  "include": ["packages/**/*", "src"],
   "exclude": ["node_modules"]
 }

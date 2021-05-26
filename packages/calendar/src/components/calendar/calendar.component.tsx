@@ -1,9 +1,11 @@
 import React, { useRef, useState, useEffect, MouseEvent } from 'react';
 import moment from 'moment';
-import * as S from './calendar.styles';
+
 import { CalendarInterface } from './calendar.definition';
 import { firstDayOfMonth, daysInMonth } from '../../helpers/getMonthData.helpers';
 import { createCalendarCell } from '../../helpers/getCalendarCell.helper';
+
+import * as S from './calendar.styles';
 
 export const Calendar = ({ month = 1, year = 2021 }: CalendarInterface) => {
     // ref
