@@ -1,3 +1,3 @@
 {
-    "presets": [["react-app", { "absoluteRuntime": false }], ["@babel/preset-react"]]
+    "presets": ["@babel/preset-typescript", ["react-app", { "absoluteRuntime": false }], ["@babel/preset-react"]]
 }

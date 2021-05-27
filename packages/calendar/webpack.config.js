@@ -1,9 +1,9 @@
 const path = require('path');
 
 const config = {
-    entry: ['react-hot-loader/patch', './src/server.tsx'],
+    entry: ['./src/App.tsx'],
     output: {
-        path: path.resolve(__dirname, 'public'),
+        path: path.resolve(__dirname, 'dist'),
         filename: '[name].js',
     },
     module: {
