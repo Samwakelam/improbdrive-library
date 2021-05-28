@@ -5,6 +5,7 @@
 dist
 build
 node_modules
+empty
 .vscode
 
 .env
@@ -21,3 +22,6 @@ yarn-error.log
 
 src/__test__/coverage/
 __test__/coverage/
+
+#files
+/empty

@@ -4,8 +4,8 @@
     "jsx": "react",
     "moduleResolution": "node",
     "lib": ["dom", "dom.iterable", "es2017"],
+    "module": "esnext",
     "target": "es5",
-    "module": "es6",
     "allowJs": true,
     "strict": false,
     "allowSyntheticDefaultImports": true,
@@ -23,6 +23,6 @@
     "declaration": true,
     "downlevelIteration": true
   },
-  "include": ["packages/**/*"],
-  "exclude": ["node_modules", "**/*.spec.ts", "dist"]
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }
