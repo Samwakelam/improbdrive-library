@@ -1,6 +1,6 @@
 {
   "name": "@improbdrive/calendar",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/index",
   "module": "dist/index",
   "typings": "dist/index",
