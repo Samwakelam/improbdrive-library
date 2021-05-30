@@ -1,9 +1,10 @@
 import React from 'react';
 
+import { CalendarInterface } from './components/calendar/calendar.definition';
 import { Calendar } from './components/calendar/calendar.component';
 
-function App() {
-    return <Calendar month={5} year={2021} />;
+function App(props: CalendarInterface): JSX.Element {
+    return <Calendar {...props} />;
 }
 
 export default App;
