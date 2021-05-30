@@ -68,18 +68,20 @@ export const Calendar = ({ month = 1, year = 2021 }: CalendarInterface) => {
     let rows: JSX.Element[][] = [];
     let cells: JSX.Element[] = [];
 
-    totalCells.forEach((cell: JSX.Element, index) => {
-        if (index % 7 !== 0) {
-            cells.push(cell);
-        } else {
-            rows.push(cells);
-            cells = [];
-            cells.push(cell);
-        }
-        if (index === totalCells.length - 1) {
-            rows.push(cells);
-        }
-    });
+    if (totalCells) {
+        totalCells.forEach((cell: JSX.Element, index) => {
+            if (index % 7 !== 0) {
+                cells.push(cell);
+            } else {
+                rows.push(cells);
+                cells = [];
+                cells.push(cell);
+            }
+            if (index === totalCells.length - 1) {
+                rows.push(cells);
+            }
+        });
+    }
 
     // competes the final row with additional blank cells for completion
     if (rows[rows.length - 1].length < 7) {
