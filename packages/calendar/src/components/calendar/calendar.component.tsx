@@ -43,7 +43,7 @@ export const Calendar = ({ month = 1, year = 2021 }: CalendarInterface) => {
     };
 
     // cells created for the days of the month
-    const dayCells = [];
+    const dayCells: JSX.Element[] = [];
     for (let day = 1; day <= daysInMonth(month, year); day++) {
         let isCurrentDay = day === currentDay ? 'today' : '';
         dayCells.push(
